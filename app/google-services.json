@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "247219231612",
+    "firebase_url": "https://garb-free-2d0a5.firebaseio.com",
+    "project_id": "garb-free-2d0a5",
+    "storage_bucket": "garb-free-2d0a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247219231612:android:393093a979ccc7745222f9",
+        "android_client_info": {
+          "package_name": "lk.bitapp.garbfree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247219231612-gkrs9rqc7tdmr4pf9irolbq5hr18kpcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl-ce-nHfktzJhCnsfoikKw-mSVmNnBII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247219231612-gkrs9rqc7tdmr4pf9irolbq5hr18kpcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

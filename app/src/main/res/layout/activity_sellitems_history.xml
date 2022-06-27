@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sellitems_history"
+    android:padding="10dp"
+    android:background="#FFF"
+    >
+
+    <GridView
+        android:id="@+id/sellitems_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="3dp"
+        android:background="#FFF"
+        android:horizontalSpacing="10dp"
+        android:numColumns="1"
+        android:scrollbarThumbVertical="@android:color/transparent"
+        android:verticalSpacing="10dp">
+
+    </GridView>
+
+    <Button
+        android:id="@+id/btn_addNew"
+        android:layout_width="354dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_rounded"
+        android:fontFamily="@font/russo_one"
+        android:onClick="btnAddNew"
+        android:text="+ ADD NEW"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="401dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/txt_rounded"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:text="MY SELL ITEMS"
+        android:textAlignment="textStart"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
